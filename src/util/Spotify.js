@@ -2,7 +2,7 @@ import SearchBar from "../Components/SearchBar/SearchBar";
 
 let userAccessToken;
 let appClientId = process.env.REACT_APP_APP_CLIENT_ID
-let redirectedURI = 'http://localhost:3000/'
+let redirectedURI = 'https://auralify.surge.sh/'
 
 const Spotify = {
     getAccessToken() {
